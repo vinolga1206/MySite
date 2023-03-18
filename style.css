@@ -1,0 +1,189 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b5a789;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0px;
+  color: Maroon;
+}
+
+
+section {
+  background: #F6F3ED;
+  margin: 10px;
+  padding: 20px;
+  border: 1px dotted maroon;
+  width: 300px;
+}
+
+article {
+  background: #eae0cc;
+  margin: 10px;
+  padding: 20px;
+  border: 1px dotted maroon;
+  width: 200px;
+}
+
+.container {
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+
+main {
+  margin: 10px;
+}
+
+aside {
+  padding: .5rem;
+  margin: .5rem;
+  border: 1px dotted maroon; 
+  color: #4c1a00;
+}
+
+
+
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+nav {
+  background-color: #efe5d0;
+  margin: 10px 10px 0px 10px;
+}
+
+nav ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  display: block;
+  border: 1px solid brown;
+  border-radius: .5em;
+  padding: .5em 1em;
+  margin: .5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #e2c2c2;
+  text-transform: uppercase;
+}
+
+li.selected {
+  background-color: #c8b99c;
+}
+
+
+a:link,
+a:visited {
+  color: brown;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover,
+a:active {
+  color: darksalmon;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #675c47;
+  text-align: center;
+  padding: 15px;
+  margin: 0px 10px 10px 10px;
+  font-weight: bold;
+  color: #350202;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+
+
+.social-icons>li {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.social-icons a {
+  position: relative;
+  background-color: #eee;
+  display: block;
+  user-select: none;
+  transition: background-color .3s ease-in-out;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: .25rem;
+}
+
+.social-icons a:hover {
+  background-color: #e0e0e0;
+}
+
+.social-icons a::before {
+  content: "";
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  left: .65rem;
+  top: .65rem;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.social-icons    .social-icon-fb::before {
+  background-image: url("images/icon-facebook.png");
+}
+
+.social-icons   .social-icon-vk::before {
+  background-image: url("images/icon-vkontakte.png");
+}
+
+.social-icons   .social-icon-ytb::before {
+  background-image: url("images/icon-youtube.png");
+}
+
+.social-icons   .social-icon-ok::before {
+  background-image: url("images/icon-odnoklassniki.png");
+}
+
+.social-icons   .social-icon-inst::before {
+  background-image: url("images/icon-instagram.png");
+}
+
+.social-icons   .social-icon-tik::before {
+  background-image: url("images/icon-tiktok.png");
+}
+
+.social-icons  .social-icon-vib::before {
+  background-image: url("images/icon-viber.png");
+}
+
+.social-icons  .social-icon-tel::before {
+  background-image: url("images/icon-telegram.png");
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#hobby
+{
+  color: brown;
+}
